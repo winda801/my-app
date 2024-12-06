@@ -19,7 +19,7 @@ const test=()=>{alert('123')}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React123
+          yhdtest
         </a>
       </header>
     </div>
