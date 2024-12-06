@@ -3,20 +3,23 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+const test=()=>{alert('123')}
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p onClick={test}> 
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
+        style={{background:'blue'}}
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React123
         </a>
       </header>
     </div>
