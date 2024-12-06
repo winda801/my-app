@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function Detail() {
 const test=()=>{alert('123')}
 let test123 = 123
 
@@ -27,4 +27,4 @@ let test123 = 123
   );
 }
 
-export default App;
+export default Detail;
